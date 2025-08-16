@@ -3,7 +3,7 @@ namespace TareaIntroduccionWinForms
     public partial class FormEstudiantes : Form
     {
         private List<string> listaEstudiantes = new List<string>();
-        private const string Encabezado = "Nombre\t\tCarnet\t\tCarrera\n";
+        private readonly string Encabezado = "Nombre".PadRight(25) + "Carnet".PadRight(15) + "Carrera\n";
         private const string Separador = "-------------------------------------------------------------\n";
 
         public FormEstudiantes()
@@ -39,7 +39,7 @@ namespace TareaIntroduccionWinForms
                 return;
             }
 
-            string nuevoEstudiante = $"{txtBoxNombre.Text}\t\t{txtBoxCarnet.Text}\t{cmbBoxCarrera.SelectedItem.ToString()}";
+            string nuevoEstudiante = txtBoxNombre.Text.PadRight(20) + txtBoxCarnet.Text.PadRight(15) + cmbBoxCarrera.SelectedItem.ToString();
 
             listaEstudiantes.Add(nuevoEstudiante);
 
