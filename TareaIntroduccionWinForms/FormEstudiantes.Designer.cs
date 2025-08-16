@@ -1,4 +1,5 @@
-﻿namespace TareaIntroduccionWinForms
+﻿
+namespace TareaIntroduccionWinForms
 {
     partial class FormEstudiantes
     {
@@ -139,7 +140,7 @@
             PerformLayout();
         }
 
-        #endregion
+       #endregion
 
         private Label labelNombre;
         private TextBox txtBoxNombre;
