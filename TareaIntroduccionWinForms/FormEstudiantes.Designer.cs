@@ -101,7 +101,7 @@ namespace TareaIntroduccionWinForms
             btnAgregar.TabIndex = 6;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += this.btnAgregar_Click;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // btnLimpiar
             // 
@@ -111,10 +111,11 @@ namespace TareaIntroduccionWinForms
             btnLimpiar.TabIndex = 7;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
-            btnLimpiar.Click += this.btnLimpiar_Click;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // labelListado
             // 
+            labelListado.Font = new Font("72 Monospace", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelListado.Location = new Point(3, 187);
             labelListado.Name = "labelListado";
             labelListado.Size = new Size(378, 259);
@@ -140,7 +141,7 @@ namespace TareaIntroduccionWinForms
             PerformLayout();
         }
 
-       #endregion
+        #endregion
 
         private Label labelNombre;
         private TextBox txtBoxNombre;
