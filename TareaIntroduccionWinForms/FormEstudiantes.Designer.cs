@@ -55,7 +55,7 @@ namespace TareaIntroduccionWinForms
             txtBoxNombre.Name = "txtBoxNombre";
             txtBoxNombre.PlaceholderText = "Ingresa el nombre";
             txtBoxNombre.Size = new Size(288, 27);
-            txtBoxNombre.TabIndex = 1;
+            txtBoxNombre.TabIndex = 0;
             // 
             // txtBoxCarnet
             // 
@@ -63,7 +63,7 @@ namespace TareaIntroduccionWinForms
             txtBoxCarnet.Name = "txtBoxCarnet";
             txtBoxCarnet.PlaceholderText = "Ingresa el carnet";
             txtBoxCarnet.Size = new Size(288, 27);
-            txtBoxCarnet.TabIndex = 3;
+            txtBoxCarnet.TabIndex = 1;
             // 
             // labelCanet
             // 
@@ -91,14 +91,14 @@ namespace TareaIntroduccionWinForms
             cmbBoxCarrera.Location = new Point(85, 96);
             cmbBoxCarrera.Name = "cmbBoxCarrera";
             cmbBoxCarrera.Size = new Size(288, 28);
-            cmbBoxCarrera.TabIndex = 5;
+            cmbBoxCarrera.TabIndex = 2;
             // 
             // btnAgregar
             // 
             btnAgregar.Location = new Point(85, 155);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(138, 29);
-            btnAgregar.TabIndex = 6;
+            btnAgregar.TabIndex = 3;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
@@ -108,7 +108,7 @@ namespace TareaIntroduccionWinForms
             btnLimpiar.Location = new Point(235, 155);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(138, 29);
-            btnLimpiar.TabIndex = 7;
+            btnLimpiar.TabIndex = 4;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
             btnLimpiar.Click += btnLimpiar_Click;
